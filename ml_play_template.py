@@ -62,7 +62,7 @@ def ml_loop():
             scene_info = comm.get_scene_info()
 
         # 3.3. Put the code here to handle the scene information
-        # 改這邊
+       
         if ball_going_down == 1 and ball_position_history[-1][1] >= 50:
             ball_destination = ball_position_history[-1][0]+ ((395-ball_position_history[-1][1])/vy)*vx
 
